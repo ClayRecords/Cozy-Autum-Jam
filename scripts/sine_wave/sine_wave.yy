@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sine_wave",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sine_wave",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

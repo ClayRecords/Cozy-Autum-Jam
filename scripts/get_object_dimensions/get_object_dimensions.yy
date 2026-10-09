@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"get_object_dimensions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"get_object_dimensions",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

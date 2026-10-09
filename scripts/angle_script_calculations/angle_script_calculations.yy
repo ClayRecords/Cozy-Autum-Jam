@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"angle_script_calculations",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"angle_script_calculations",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"move_to_solid",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"move_to_solid",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
