@@ -36,6 +36,7 @@
     {"id":{"name":"obj_game_manager","path":"objects/obj_game_manager/obj_game_manager.yy",},},
     {"id":{"name":"obj_title_manager","path":"objects/obj_title_manager/obj_title_manager.yy",},},
     {"id":{"name":"order_bubble","path":"objects/order_bubble/order_bubble.yy",},},
+    {"id":{"name":"obj_pause_manager","path":"objects/obj_pause_manager/obj_pause_manager.yy",},},
     {"id":{"name":"player","path":"objects/player/player.yy",},},
     {"id":{"name":"visitor","path":"objects/visitor/visitor.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},

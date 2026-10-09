@@ -1,2 +1,2 @@
 // Toggle debug mode
-debug = !debug;
+is_debug = !is_debug;
