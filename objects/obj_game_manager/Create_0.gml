@@ -1,2 +1,2 @@
 // Debug mode, for analytics and testing
-debug = false;
+is_debug = false;
