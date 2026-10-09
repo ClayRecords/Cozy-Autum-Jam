@@ -1,3 +1,2 @@
-
 // Toggle debug mode
-debug = !debug
+debug = !debug;

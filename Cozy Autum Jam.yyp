@@ -25,7 +25,9 @@
   "name":"Cozy Autum Jam",
   "resources":[
     {"id":{"name":"obj_game_manager","path":"objects/obj_game_manager/obj_game_manager.yy",},},
+    {"id":{"name":"obj_title_manager","path":"objects/obj_title_manager/obj_title_manager.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Title","path":"rooms/Title/Title.yy",},},
     {"id":{"name":"angle_lerp","path":"scripts/angle_lerp/angle_lerp.yy",},},
     {"id":{"name":"angle_script_calculations","path":"scripts/angle_script_calculations/angle_script_calculations.yy",},},
     {"id":{"name":"get_object_dimensions","path":"scripts/get_object_dimensions/get_object_dimensions.yy",},},
@@ -37,6 +39,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Title","path":"rooms/Title/Title.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
