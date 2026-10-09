@@ -1,4 +1,4 @@
-gpu_set_blendenable(false);
+//gpu_set_blendenable(false);
 
 // Draw frozen image to screen while paused
 if (is_paused) {
