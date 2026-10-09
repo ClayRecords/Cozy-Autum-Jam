@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"order_bubble",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"potion",
+  "eventList":[],
   "managed":true,
-  "name":"order_bubble",
+  "name":"potion",
   "overriddenProperties":[],
   "parent":{
     "name":"objects",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"textBubble",
-    "path":"sprites/textBubble/textBubble.yy",
+    "name":"test_potion",
+    "path":"sprites/test_potion/test_potion.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,2 +1,2 @@
-text = "";
+potion_sprite = ;
 
