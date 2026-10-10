@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_ingredient_frog_leg",
+    "path":"sprites/spr_ingredient_frog_leg/spr_ingredient_frog_leg.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
