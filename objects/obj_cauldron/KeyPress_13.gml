@@ -1,1 +1,2 @@
 add_ingredient(obj_ingredient_bat_wing);
+add_ingredient(obj_ingredient_frog_leg);

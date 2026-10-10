@@ -4,32 +4,40 @@ current_potion = undefined;
 
 function add_ingredient(ingredient) {
 	array_push(current_ingredients, ingredient);
-	recipe_evaluate();
+	evaluate_recipes();
 }
 
-function flush() {
-	current_ingredients = [];
-	recipe_evaluate();
-}
-
-function recipe_evaluate() {
+function evaluate_recipes() {
 	current_potion = undefined;
 	if (array_length(current_ingredients) == 0) {
 		return;
 	}
-	for (i = 0; i <= array_length(recipes) - 1; i++) {
-		print(i);
-		current_recipe = recipes[i];
-		if (evaluate_ingredients(current_recipe.recipe_ingredients)) {
-			current_potion = current_recipe.recipe_potion;
+
+	for (var i = 0; i <= array_length(recipes) - 1; i++) {
+		var recipe = recipes[i];
+		if (evaluate_recipe(recipe)) {
+			current_potion = recipe.recipe_potion;
 		}
 	}
 }
 
-function evaluate_ingredients(recipe_ingredients) {
+function evaluate_recipe(recipe) {
+	var recipe_ingredients = recipe.recipe_ingredients;
+	var recipe_length = array_length(recipe_ingredients);
+
 	// Check if the test ingredients will make this recipe, return bool
-	if (array_length(recipe_ingredients) != array_length(current_ingredients)) {
+	if (recipe_length != array_length(current_ingredients)) {
 		return false;
 	}
+	for (i = 0; i <= array_length(current_ingredients) - 1; i++) {
+		if (recipe_ingredients[i] != current_ingredients[i]) {
+			return false;
+		}
+	}
 	return true;
+}
+
+function flush() {
+	current_ingredients = [];
+	evaluate_recipes();
 }
