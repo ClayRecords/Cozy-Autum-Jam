@@ -9,7 +9,7 @@ money = 0;
  * Creates a new ghost object as the next customer.
  */
 create_new_ghost = function() {
-	current_ghost = instance_create_layer(75, 512, "Instances", obj_visitor);
+	current_ghost = instance_create_layer(144, 512, "Instances", obj_visitor);
 	current_ghost.order = obj_potion_invisibility;
 };
 
