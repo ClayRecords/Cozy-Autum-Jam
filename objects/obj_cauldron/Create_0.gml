@@ -5,6 +5,7 @@ current_potion = undefined;
 function add_ingredient(ingredient) {
 	array_push(current_ingredients, ingredient);
 	evaluate_recipes();
+    audio_play_sound(choose(snd_bubble1, snd_bubble2, snd_bubble3, snd_bubble4), 1, false);
 }
 
 function evaluate_recipes() {
