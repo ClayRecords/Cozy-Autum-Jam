@@ -4,7 +4,9 @@
   "eventList":[],
   "managed":true,
   "name":"obj_potion_foul",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_potion_parent","path":"objects/obj_potion_parent/obj_potion_parent.yy",},"propertyId":{"name":"name","path":"objects/obj_potion_parent/obj_potion_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Foul",},
+  ],
   "parent":{
     "name":"potions",
     "path":"folders/objects/potions.yy",

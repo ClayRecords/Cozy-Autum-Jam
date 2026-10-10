@@ -1,1 +1,2 @@
-tile_map = layer_tilemap_get_id("Walls");
+speed_multi = 2
+mask_index = player_sprite_down

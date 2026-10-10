@@ -92,7 +92,7 @@ function maze_build() {
 				instance_create_layer(
 					MAZE_X0 + i * MAZE_COL_SPACE + MAZE_COL_SPACE / 2,
 					MAZE_Y0 + j * MAZE_COL_SPACE,
-					"maze_bits",
+					"MazeShelves",
 					obj_shelf
 				);
 			}
@@ -105,7 +105,7 @@ function maze_build() {
 				var s = instance_create_layer(
 					MAZE_X0 + i * MAZE_COL_SPACE,
 					MAZE_Y0 + j * MAZE_COL_SPACE + MAZE_COL_SPACE / 2,
-					"maze_bits",
+					"MazeShelves",
 					obj_shelf
 				);
 				s.image_angle = 90;

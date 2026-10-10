@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_pillar",
+  "%Name":"obj_recipe_parent",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_pillar",
+  "name":"obj_recipe_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"maze",
-    "path":"folders/objects/maze.yy",
+    "name":"recipes",
+    "path":"folders/objects/recipes.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,11 +28,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"spr_test_pillar",
-    "path":"sprites/spr_test_pillar/spr_test_pillar.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

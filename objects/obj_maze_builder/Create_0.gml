@@ -7,7 +7,7 @@ for (var i = 0; i < MAZE_COLS; i++) {
 		instance_create_layer(
 			MAZE_X0 + i * MAZE_COL_SPACE,
 			MAZE_Y0 + j * MAZE_COL_SPACE,
-			"maze_bits",
+			"MazeShelves",
 			obj_pillar
 		);
 	}
