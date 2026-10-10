@@ -12,5 +12,7 @@ if (point_in_rectangle(player.x, player.y, x1, y1, x2, y2)) {
 		is_in_register_zone = false;
 		is_cover_up = false;
 		image_alpha = 0;
+        // trigger the maze build
+        maze_build()
 	}
 }

@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"Room1",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/Room1/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -11,6 +11,7 @@
     {"name":"inst_708F88F5","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_23ED9C6D","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6E3E08A5","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_2CB56315","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -23,7 +24,10 @@
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_708F88F5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_708F88F5","objectId":{"name":"player","path":"objects/player/player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":256.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRTileLayer":"","%Name":"Walls","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Walls","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":34,"SerialiseWidth":60,"TileCompressedData":[
+    {"$GMRInstanceLayer":"","%Name":"maze_bits","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v4","%Name":"inst_2CB56315","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2CB56315","objectId":{"name":"obj_maze_builder","path":"objects/obj_maze_builder/obj_maze_builder.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":96.0,},
+      ],"layers":[],"name":"maze_bits","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRTileLayer":"","%Name":"Walls","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Walls","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":34,"SerialiseWidth":60,"TileCompressedData":[
           -61,15,-8,0,-12,15,-38,0,-2,15,-8,0,-12,15,-38,0,-2,15,-8,0,-4,15,-6,0,-2,15,-38,0,-2,15,-8,0,-4,15,
           -6,0,-2,15,-38,0,-2,15,-8,0,-4,15,-6,0,-2,15,-38,0,-2,15,-8,0,-4,15,-6,0,-2,15,-38,0,-2,15,-8,0,-4,15,
           -6,0,-2,15,-38,0,-2,15,-8,0,-4,15,-6,0,-2,15,-38,0,-2,15,-8,0,-4,15,-6,0,-2,15,-38,0,-2,15,-18,0,-2,
@@ -32,7 +36,7 @@
           15,-38,0,-2,15,-18,0,-2,15,-38,0,-2,15,-18,0,-2,15,-38,0,-2,15,-18,0,-2,15,-38,0,-2,15,-8,0,-12,15,-38,
           0,-2,15,-8,0,-12,15,-38,0,-2,15,-8,0,-12,15,-38,0,-4,15,-4,0,-14,15,-38,0,-4,15,-4,0,-53,15,
         ],"TileDataFormat":1,},"tilesetId":{"name":"Tiles","path":"tilesets/Tiles/Tiles.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"Game_Jam_Layout_Temp","path":"sprites/Game_Jam_Layout_Temp/Game_Jam_Layout_Temp.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"Game_Jam_Layout_Temp","path":"sprites/Game_Jam_Layout_Temp/Game_Jam_Layout_Temp.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
   "name":"Room1",
   "parent":{

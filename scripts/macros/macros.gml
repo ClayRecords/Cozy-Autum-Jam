@@ -1,0 +1,8 @@
+#macro MAZE_COL_SPACE 96
+#macro MAZE_X0 352
+#macro MAZE_Y0 32
+#macro MAZE_COLS 7
+#macro MAZE_ROWS 6
+#macro MAZE_CELL_W (MAZE_COLS - 1) 
+#macro MAZE_CELL_H (MAZE_ROWS - 1)
+#macro MAZE_ENTRY_ROW 2
