@@ -1,5 +1,5 @@
 function start_destroy() {
-	target_x = 70;
+	target_x = 144;
 	target_y = 512;
 	move_towards_point(target_x, target_y, movement_speed);
 	image_alpha = lerp(image_alpha, 0, 0.1);
@@ -16,8 +16,8 @@ if (order_complete) {
 }
 
 function start_enter() {
-	target_x = 75;
-	target_y = 270;
+	target_x = 192;
+	target_y = 336;
 	move_towards_point(target_x, target_y, movement_speed);
 	if (abs(point_distance(x, y, target_x, target_y)) < 20) {
 		is_entering = false;
