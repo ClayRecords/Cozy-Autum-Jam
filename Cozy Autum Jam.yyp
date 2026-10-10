@@ -84,6 +84,8 @@
     {"id":{"name":"snd_doorbellring1","path":"sounds/snd_doorbellring1/snd_doorbellring1.yy",},},
     {"id":{"name":"snd_doorbellring2","path":"sounds/snd_doorbellring2/snd_doorbellring2.yy",},},
     {"id":{"name":"snd_doorbellring3","path":"sounds/snd_doorbellring3/snd_doorbellring3.yy",},},
+    {"id":{"name":"snd_footstep1","path":"sounds/snd_footstep1/snd_footstep1.yy",},},
+    {"id":{"name":"snd_footstep2","path":"sounds/snd_footstep2/snd_footstep2.yy",},},
     {"id":{"name":"snd_menuclick1","path":"sounds/snd_menuclick1/snd_menuclick1.yy",},},
     {"id":{"name":"snd_menuclick2","path":"sounds/snd_menuclick2/snd_menuclick2.yy",},},
     {"id":{"name":"snd_pageturn1","path":"sounds/snd_pageturn1/snd_pageturn1.yy",},},

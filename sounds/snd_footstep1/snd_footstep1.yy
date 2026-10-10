@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_doorbellring1",
+  "%Name":"snd_footstep1",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.412517,
+  "duration":0.12557822,
   "exportDir":"",
-  "name":"snd_doorbellring1",
+  "name":"snd_footstep1",
   "parent":{
-    "name":"sounds",
-    "path":"folders/sounds.yy",
+    "name":"objects",
+    "path":"folders/objects.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_doorbellring1.wav",
-  "volume":0.43,
+  "soundFile":"snd_footstep1.wav",
+  "volume":1.0,
 }

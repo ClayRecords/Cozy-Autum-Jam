@@ -15,8 +15,10 @@ collide_objs = [obj_shelf, obj_pillar, tilemap];
 
 move_and_collide(normalized_x, normalized_y, collide_objs);
 
-move_timer = 0;
+is_moving = false;
 if (_horizontal != 0 || _vertical != 0) {
+    is_moving = true;
+    
 	if (_horizontal > 0) {
 		sprite_index = player_sprite_right;
 	} else if (_horizontal < 0) {

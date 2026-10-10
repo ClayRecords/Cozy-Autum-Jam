@@ -17,8 +17,9 @@ function add_ingredient(ingredient) {
 	evaluate_recipes();
 	audio_play_sound(
 		choose(snd_bubble1, snd_bubble2, snd_bubble3, snd_bubble4),
-		1,
-		false
+		10,
+		false,
+        .3
 	);
 }
 
