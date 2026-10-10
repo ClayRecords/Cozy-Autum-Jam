@@ -89,6 +89,7 @@
     {"id":{"name":"snd_pageturn3","path":"sounds/snd_pageturn3/snd_pageturn3.yy",},},
     {"id":{"name":"snd_pageturn4","path":"sounds/snd_pageturn4/snd_pageturn4.yy",},},
     {"id":{"name":"Game_Jam_Layout_Temp","path":"sprites/Game_Jam_Layout_Temp/Game_Jam_Layout_Temp.yy",},},
+    {"id":{"name":"Game_Jam_Layout_Temp2","path":"sprites/Game_Jam_Layout_Temp2/Game_Jam_Layout_Temp2.yy",},},
     {"id":{"name":"player_sprite_down_still","path":"sprites/player_sprite_down_still/player_sprite_down_still.yy",},},
     {"id":{"name":"player_sprite_down","path":"sprites/player_sprite_down/player_sprite_down.yy",},},
     {"id":{"name":"player_sprite_left_still","path":"sprites/player_sprite_left_still/player_sprite_left_still.yy",},},

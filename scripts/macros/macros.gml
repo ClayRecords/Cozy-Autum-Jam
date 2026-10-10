@@ -5,4 +5,4 @@
 #macro MAZE_ROWS 6
 #macro MAZE_CELL_W (MAZE_COLS - 1)
 #macro MAZE_CELL_H (MAZE_ROWS - 1)
-#macro MAZE_ENTRY_ROW 2
+#macro MAZE_ENTRY_ROW 1
