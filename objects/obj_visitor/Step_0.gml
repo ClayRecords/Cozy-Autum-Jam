@@ -7,7 +7,7 @@ function start_destroy() {
 		is_leaving = true;
 	}
 }
-
+    
 if (order_complete) {
 	start_destroy();
 	if (is_leaving) {
@@ -27,4 +27,6 @@ function start_enter() {
 
 if (is_entering) {
 	start_enter();
+}else{
+    tip = lerp(tip, 1, .0005);
 }

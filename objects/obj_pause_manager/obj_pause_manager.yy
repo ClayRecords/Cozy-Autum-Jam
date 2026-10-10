@@ -12,8 +12,8 @@
   "name":"obj_pause_manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"objects",
-    "path":"folders/objects.yy",
+    "name":"managers",
+    "path":"folders/objects/managers.yy",
   },
   "parentObjectId":null,
   "persistent":true,

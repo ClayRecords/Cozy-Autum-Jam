@@ -11,6 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"objects","folderPath":"folders/objects.yy","name":"objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"managers","folderPath":"folders/objects/managers.yy","name":"managers","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"ingredients","folderPath":"folders/objects/ingredients.yy","name":"ingredients","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"maze","folderPath":"folders/objects/maze.yy","name":"maze","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"menus","folderPath":"folders/objects/menus.yy","name":"menus","resourceType":"GMFolder","resourceVersion":"2.0",},
