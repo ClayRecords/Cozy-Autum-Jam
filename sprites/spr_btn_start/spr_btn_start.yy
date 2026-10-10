@@ -45,7 +45,7 @@
   "origin":4,
   "parent":{
     "name":"title",
-    "path":"folders/sprites/menus/title.yy",
+    "path":"folders/sprites/player_sprites/menus/title.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
