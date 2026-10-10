@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"potion",
-  "eventList":[],
+  "%Name":"obj_register_zone",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"potion",
+  "name":"obj_register_zone",
   "overriddenProperties":[],
   "parent":{
     "name":"objects",
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"test_potion",
-    "path":"sprites/test_potion/test_potion.yy",
+    "name":"spr_storage_cover_sprite",
+    "path":"sprites/spr_storage_cover_sprite/spr_storage_cover_sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"visitor",
+  "%Name":"obj_visitor",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -8,7 +8,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"visitor",
+  "name":"obj_visitor",
   "overriddenProperties":[],
   "parent":{
     "name":"objects",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"visitorSprite",
-    "path":"sprites/visitorSprite/visitorSprite.yy",
+    "name":"spr_visitorSprite",
+    "path":"sprites/spr_visitorSprite/spr_visitorSprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

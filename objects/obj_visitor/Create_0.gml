@@ -1,7 +1,7 @@
 // order: list of potions
 // tip: (correctness of potions + time)
 
-order = {};
+order = undefined;
 
 order_complete = false;
 is_leaving = false;

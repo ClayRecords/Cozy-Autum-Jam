@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"register_zone",
+  "%Name":"obj_order_bubble",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"register_zone",
+  "name":"obj_order_bubble",
   "overriddenProperties":[],
   "parent":{
     "name":"objects",
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"storage_cover_sprite",
-    "path":"sprites/storage_cover_sprite/storage_cover_sprite.yy",
+    "name":"spr_textBubble",
+    "path":"sprites/spr_textBubble/spr_textBubble.yy",
   },
   "spriteMaskId":null,
   "visible":true,
