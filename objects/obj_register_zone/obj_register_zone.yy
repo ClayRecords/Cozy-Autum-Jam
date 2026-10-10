@@ -9,8 +9,8 @@
   "name":"obj_register_zone",
   "overriddenProperties":[],
   "parent":{
-    "name":"objects",
-    "path":"folders/objects.yy",
+    "name":"managers",
+    "path":"folders/objects/managers.yy",
   },
   "parentObjectId":null,
   "persistent":false,
