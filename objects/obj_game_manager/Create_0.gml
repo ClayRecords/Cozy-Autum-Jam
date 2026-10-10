@@ -19,8 +19,8 @@ self.create_new_ghost();
  * Increase money based on potion cost + tip from visitor.
  * @param {Id.instance} obj_visitor visitor who has been taken care of.
  */
-function get_paid(obj_visitor){
-    potion_cost = obj_visitor.order.cost;
-    tip_percent = obj_visitor.tip;
-    money += (potion_cost * tip_percent);
+function get_paid(obj_visitor) {
+	potion_cost = obj_visitor.order.cost;
+	tip_percent = obj_visitor.tip;
+	money += potion_cost * tip_percent;
 }

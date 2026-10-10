@@ -13,5 +13,5 @@ if (obj_register_zone.is_in_register_zone && !order_complete) {
 }
 
 if (obj_game_manager.is_debug) {
-	draw_text(x, y, "Cost: " + str(order.cost*tip));
+	draw_text(x, y, "Cost: " + str(order.cost * tip));
 }
