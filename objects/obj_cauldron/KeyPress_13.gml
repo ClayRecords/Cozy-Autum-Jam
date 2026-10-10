@@ -1,0 +1,1 @@
+add_ingredient(obj_ingredient_bat_wing);
