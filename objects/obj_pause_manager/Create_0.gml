@@ -8,8 +8,8 @@ function pause() {
 	// Deactivate everything except pause manager
 	instance_deactivate_all(true);
 
-	resolution_w = display_get_width();
-	resolution_h = display_get_height();
+    resolution_w = room_width
+    resolution_h = room_height
 
 	// Capture background
 	pause_surface = surface_create(resolution_w, resolution_h);
@@ -28,8 +28,13 @@ function pause() {
 	);
 	buffer_get_surface(pause_surface_buffer, pause_surface, 0);
 
+    
+    
 	// Add buttons
-	unpause_btn = instance_create_layer(0, 0, "Instances", obj_button_unpause);
+	button_x = resolution_w / 2;
+    unpause_btn = instance_create_layer(button_x, 500, "Instances", obj_button_unpause, {
+        image_xscale: 3
+    });
 }
 
 function unpause() {
