@@ -88,12 +88,21 @@ function maze_build() {
 	for (var i = 0; i < MAZE_COLS - 1; i++) {
 		for (var j = 0; j < MAZE_ROWS; j++) {
 			if (h_shelf[# i, j]) {
+				var shelf_angle = choose(0, 180);
+				if (j == 0) {
+					// On top edge, point shelf down
+					shelf_angle = 180;
+				} else if (j == MAZE_ROWS - 1) {
+					// On bottom edge, point shelf up
+					shelf_angle = 0;
+				}
 				// Horizontal Shelves
 				instance_create_layer(
 					MAZE_X0 + i * MAZE_COL_SPACE + MAZE_COL_SPACE / 2,
 					MAZE_Y0 + j * MAZE_COL_SPACE,
 					"MazeShelves",
-					obj_shelf
+					obj_shelf,
+					{image_angle: shelf_angle}
 				);
 			}
 		}
@@ -101,14 +110,22 @@ function maze_build() {
 	for (var i = 0; i < MAZE_COLS; i++) {
 		for (var j = 0; j < MAZE_ROWS - 1; j++) {
 			if (v_shelf[# i, j]) {
+				var shelf_angle = choose(90, 270);
+				if (i == 0) {
+					// On left edge, point shelf right
+					shelf_angle = 270;
+				} else if (i == MAZE_COLS - 1) {
+					// On right edge, point shelf left
+					shelf_angle = 90;
+				}
 				// Vertical Shelves
 				var s = instance_create_layer(
 					MAZE_X0 + i * MAZE_COL_SPACE,
 					MAZE_Y0 + j * MAZE_COL_SPACE + MAZE_COL_SPACE / 2,
 					"MazeShelves",
-					obj_shelf
+					obj_shelf,
+					{image_angle: shelf_angle}
 				);
-				s.image_angle = 90;
 			}
 		}
 	}
