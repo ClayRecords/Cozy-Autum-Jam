@@ -9,7 +9,6 @@
     {"name":"inst_3FEE27A0","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2BE03CB9","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_708F88F5","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_512CEB59","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_23ED9C6D","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
