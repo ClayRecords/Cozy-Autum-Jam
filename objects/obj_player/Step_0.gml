@@ -11,7 +11,7 @@ if (vector_length > 0) {
 	normalized_y = _vertical / vector_length * speed_multi;
 }
 
-collide_objs = [obj_shelf, obj_pillar];
+collide_objs = [obj_shelf, obj_pillar, tilemap];
 
 move_and_collide(normalized_x, normalized_y, collide_objs);
 
