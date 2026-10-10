@@ -7,10 +7,10 @@ current_ghost = {};
  * 
  * @returns {Object} - A new ghost, with their {order} included.
  */
-create_new_ghost = function(){
-    ghost = instance_create_layer(75,512,"Instances", visitor)
-    ghost.order = potion;
-    self.current_ghost = ghost;
-}
+create_new_ghost = function() {
+	ghost = instance_create_layer(75, 512, "Instances", visitor);
+	ghost.order = potion;
+	self.current_ghost = ghost;
+};
 
 self.create_new_ghost();

@@ -77,6 +77,7 @@
     {"id":{"name":"spr_btn_start","path":"sprites/spr_btn_start/spr_btn_start.yy",},},
     {"id":{"name":"spr_btn","path":"sprites/spr_btn/spr_btn.yy",},},
     {"id":{"name":"spr_cauldron","path":"sprites/spr_cauldron/spr_cauldron.yy",},},
+    {"id":{"name":"storage_cover_sprite","path":"sprites/storage_cover_sprite/storage_cover_sprite.yy",},},
     {"id":{"name":"test_potion","path":"sprites/test_potion/test_potion.yy",},},
     {"id":{"name":"textBubble","path":"sprites/textBubble/textBubble.yy",},},
     {"id":{"name":"TileSet","path":"sprites/TileSet/TileSet.yy",},},
