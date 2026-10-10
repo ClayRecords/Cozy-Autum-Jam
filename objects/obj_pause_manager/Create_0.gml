@@ -2,6 +2,8 @@ is_paused = false;
 pause_surface = -1;
 pause_surface_buffer = -1;
 
+unpause_btn = -1;
+
 function pause() {
 	is_paused = true;
 
@@ -54,5 +56,7 @@ function cleanup() {
 	}
 
 	// Delete buttons
-	instance_destroy(unpause_btn);
+	if (instance_exists(unpause_btn)) {
+		instance_destroy(unpause_btn);
+	}
 }
