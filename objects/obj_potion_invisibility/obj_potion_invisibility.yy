@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
   "%Name":"obj_potion_invisibility",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_potion_invisibility",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_potion_parent","path":"objects/obj_potion_parent/obj_potion_parent.yy",},"propertyId":{"name":"name","path":"objects/obj_potion_parent/obj_potion_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Invisibility",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"potions",
     "path":"folders/objects/potions.yy",
