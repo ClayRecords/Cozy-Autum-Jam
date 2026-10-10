@@ -31,3 +31,4 @@ if (_horizontal != 0 || _vertical != 0) {
 		sprite_index = player_sprite_up_left;
 	}
 }
+
